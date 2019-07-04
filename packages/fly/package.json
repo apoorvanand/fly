@@ -17,16 +17,20 @@
   "scripts": {
     "clean": "rm -rf README.md",
     "build": "cp ../../README.md .",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=8 <11"
   },
   "dependencies": {
     "@fly/core": "0.44.9-pre.2",
-    "@fly/v8env": "0.44.9-pre.2"
+    "@fly/v8env": "0.44.9-pre.2",
+    "snyk": "^1.189.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
