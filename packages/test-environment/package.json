@@ -21,7 +21,7 @@
         "@fly/core": "0.44.9-pre.2",
         "@types/jest": "^23.3.1",
         "@types/node-fetch": "2.1.2",
-        "jest": "^23.5.0",
+        "jest": "^24.0.0",
         "jest-environment-node": "^23.4.0",
         "node-fetch": "2.2.0",
         "ts-jest": "^23.1.4"
