@@ -21,7 +21,7 @@
         "@fly/examples": "0.44.4",
         "@fly/v8env": "0.44.9-pre.2",
         "ansi-colors": "^1.1.0",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "better-sqlite3": "^4.1.4",
         "bluebird": "^3.5.1",
         "chokidar": "^2.0.4",
